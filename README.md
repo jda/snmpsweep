@@ -1,5 +1,5 @@
 # snmpsweep
-Query SNMP OID against every IPs in a subnet
+Query SNMP OID against every IP in a subnet
 
 Usage: snmpsweep -c blah 1.3.6.1.4.1.9.2.1.3 192.168.0.0/24
 
