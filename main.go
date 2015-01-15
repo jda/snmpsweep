@@ -77,7 +77,7 @@ func getCommunity(ip string, s gosnmp.GoSNMP, oid string) {
 	}
 	for _, variable := range res.Variables {
 		if variable.Value != nil {
-			fmt.Printf("%s %s\n", ip, variable.Value)
+			fmt.Printf("%s %v\n", ip, variable.Value)
 		}
 	}
 }
